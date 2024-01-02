@@ -78,6 +78,8 @@ void setup(void){
     delay(1000);
     Serial.print(".");
   }
+
+  // printando as informações de conexão
   Serial.println("");
   Serial.print("Connected to ");
   Serial.println(ssid);
