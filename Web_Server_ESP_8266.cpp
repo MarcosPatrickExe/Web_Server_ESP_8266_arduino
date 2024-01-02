@@ -107,6 +107,7 @@ void loop(){
 
   waitingEllipsis += ".";
 
+  // utilizando os pontos '.' para indicar que o programa esta em espera por alguma requisicao
   if(waitingEllipsis.length() > 10 ){
       waitingEllipsis = ".";
       Serial.println("");
