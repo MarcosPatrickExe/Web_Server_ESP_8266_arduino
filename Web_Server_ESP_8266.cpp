@@ -4,8 +4,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-const char* ssid = "Aqui Telecom Saraiva";
-const char* password = "91230777";
+const char* ssid = "my_local_network_name";
+const char* password = "12345678";
 
 String waitingEllipsis = "...";
 
